@@ -228,7 +228,7 @@ img {
 /* about me section */
 #textbox-about{
   display: block;
-  color: white;
+  color: black;
   width: 80%;
   height: 100%;
   background-color: green;
@@ -387,17 +387,15 @@ h2:after {
 /* Contact Me section */
 
 #contact-me{
-  display: block;
   height: 100vh;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  color: black;
   display: block;
   background-size: cover;
 }
 
-#contact-me h2::after{
+#section-me h2::after{
   display: block;
   height: 2px;
   background-color: #000000;
@@ -433,11 +431,11 @@ h2:after {
     margin-top: 50px;
 }
 
-.innerform{
+.innerform {
   margin-bottom: 20px;
 }
-/* Footer section */
 
+/* Footer section */
 footer{
   background-size: cover;
   width: 100%;
